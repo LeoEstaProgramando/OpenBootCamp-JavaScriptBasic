@@ -39,7 +39,7 @@ console.log(last_letter_apellido);
 console.log(typeof(last_letter_apellido));
 
 //Una cadena de texto que elimine los espacios de la variable "estudiante"
-var cortar_espacio = estudiante.replace(" ","-");
+var cortar_espacio = estudiante.replace(" ","");
 console.log(cortar_espacio);
 console.log(typeof(cortar_espacio));
 
