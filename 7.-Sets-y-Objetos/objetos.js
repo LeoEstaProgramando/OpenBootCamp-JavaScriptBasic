@@ -14,4 +14,4 @@ const edad = datos.edad;
 const lista = [datos, {nombre: "Gerson", apellido: "Pariona", edad: 23, altura: 1.68, esDesarrollador: false}, {nombre: "Derry", apellido: "Merino", edad: 25, altura: 1.74, esDesarrollador: false}]
 
 //Una nueva lista con los objetos de la lista anterior ordenados por edad, de mayor a menor
-const listaOrdenada = lista.sort((a, b) => a.edad - b.edad)
+const listaOrdenada = lista.sort((a, b) => b.edad - a.edad)
