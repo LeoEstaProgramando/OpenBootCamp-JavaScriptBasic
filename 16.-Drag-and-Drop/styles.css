@@ -1,0 +1,24 @@
+section {
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    background-color: white;
+    padding: 10px;
+}
+
+.dragging {
+    opacity: 0.3;
+}
+
+#fantasma {
+    background-color: blue;
+}
+
+#papelera {
+    background-color: white;
+    text-align: right;
+}
+
